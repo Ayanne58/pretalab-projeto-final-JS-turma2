@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt">
+
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/styles.css" />
-    <title>Projeto Final JS</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Projeto Final JS - Ayanne</title>
   </head>
+
   <body>
     <h1>[PretaLab - Turma 2] Módulo 3: Javascript</h1>
 
@@ -28,25 +30,32 @@
 
           <input class="inputCalc" id="numero1Soma" type="number" required />
           <input class="inputCalc" id="numero2Soma" type="number" required />
-          <button class="buttonCalc">SOMAR</button>
-          <p class="resultado">Resultado: </p>
+          <button class="buttonCalc" onclick="somar()">SOMAR</button>
+          <p class="resultado" id="resultadoSoma">Resultado:  </p>
 
+          
+          
           <input class="inputCalc" id="numero1Sub" type="number" required />
           <input class="inputCalc" id="numero2Sub" type="number" required />
-          <button class="buttonCalc">SUBTRAIR</button>
-          <p class="resultado">Resultado: </p>
+          <button class="buttonCalc" onclick="subtrair ()">SUBTRAIR</button>
+          <p class="resultado2" id="resultadoSub">Resultado:  </p>
 
+          
+          
           <input class="inputCalc" id="numero1Mult" type="number" required />
           <input class="inputCalc" id="numero2Mult" type="number" required />
-          <button class="buttonCalc">
+          <button class="buttonCalc" onclick="multiplicar ()">
             MULTIPLICAR
           </button>
-          <p class="resultado">Resultado: </p>
+          <p class="resultado3" id="resultadoMult">Resultado: </p>
+
+
 
           <input class="inputCalc" id="numero1Div" type="number" required />
           <input class="inputCalc" id="numero2Div" type="number" required />
-          <button class="buttonCalc">DIVIDIR</button>
-          <p class="resultado">Resultado: </p>
+          <button class="buttonCalc" onclick="dividir ()">DIVIDIR</button>
+          <p class="resultado4" id="resultadoDiv">Resultado: </p>
+
         </section>
 
         <section id="projeto2">
@@ -75,8 +84,9 @@
               </div>
             </div>
 
-            <button id="btnSituacao">
+            <button id="btnSituacao" onclick="calcularMedia()">
               Qual a situação da estudante?
+            
             </button>
 
           </div>
@@ -84,7 +94,11 @@
       </div>
     </main>
 
-    <script type="text/javascript" src="/js/calculadora.js"></script>
-    <script type="text/javascript" src="/js/media.js"></script>
+    <script type="text/javascript" src="js/calculadora.js"></script>
+    <script type="text/javascript" src="js/media.js"></script>
+
+
   </body>
+
+
 </html>

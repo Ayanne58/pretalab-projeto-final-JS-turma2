@@ -3,9 +3,5 @@
 
 ---
 
-Sejam bem vindas ao repositório do projeto final do módulo de Javascript.
-
-  1. Faça um fork desse repositório.
-  2. Abra o arquivo `calculadora.js` e siga as instruções para para que as operações básicas passem a ser funcionais.
-  3. Abra o arquivo `media.js` e siga as instruções para para que a soma passe a ser funcional.  
-  4. [obrigatório] Por fim, publique no Netlify!
+Este é um trabalho que tem como finalidade a criação de uma calculadora simples e uma que calcule a média de 4 notas ao
+londo do ano letivo de esdutantes. Para este trabalho foram utilizados conceitos de HTML, CSS e JavaScript.
